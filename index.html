@@ -2,43 +2,227 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio Website</title>
+   <!-- fontawsome -->
+   <link rel="stylesheet" href="./css/font-awsome.min.css">
+   <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" 
-    rel="stylesheet">
-    <title>new tailog page</title>
+    <!-- responsive -->
+    <link rel="stylesheet" href="./css/responsive.css">
+
 </head>
 <body>
+    <!-- header start -->
     <header>
-        <div class="navbar">
-            <div class="logo">
-                <h2><a href="#">TAİLOG</a></h2>
+        <nav class="navbar">
+            <div class="logo"><h2><a href="#">ZAFER ÖZAY</a></h2>
             </div>
             <ul class="navbar_links">
                 <li><a href="Anasayfa">Anasayfa</a></li>
-                <li><a href="yazılımlar">yazılımlar</a></li>
                 <li><a href="Sertifikalar">Sertifikalar</a></li>
                 <li><a href="başarılar">başarılar</a></li>
                 <li><a href="hakkımda">hakkımda</a></li>
                 <li><a href="iletişim">iletişim</a></li>
 
             </ul>
+        </nav>
+        <div  id="menu_bar">
+            <i class="fas fs-bars"></i>
         </div>
     </header>
+    <!-- header end -->
     <!-- ANASAYFA -->
 <section id="anasayfa">
     <div class="inner_anasayfa">
        <div class="child_anasayfa">
-         <h1>BLOG SAYFASINA MI İHTİYACIN VAR? <br> <span class="süper_child">NOT MU İSTİYORSUN?</span></h1>
-            <p>ne bekliyorsun</p>
+         <h1>USTA'YA MI İHTİYACIN VAR? <br> <span class="süper_child">TADİLAT MI İSTİYORSUN?</span></h1>
+            <p>Kısa ve profesyonel</p>
               <button class="btn"> BİZE ULAŞ</button>
 </div>
 <div class="child_anasayfa">
-       <img src="img/kedirose.jpg" alt="">
+       <img src="img/inşaat.png" alt="">
 </div>
     </div>
 </section>
+    <!-- SERTİFİKALAR -->
+    <section id="Sertifikalar">
+        <div class="section_tittle">
+            <h2>SERTİFİKALAR</h2>
+        </div>
+        <div class="innersoftware">
+           <div class="innersoftware_child">
+            <div class="icon">
+               <i class="fas fa-laptop"></i>
+            </div>
+           <h3>USTALIK BELGESİ</h3>
+           <P>Mesleki Yeterlilik Kurumu (MYK) veya Milli Eğitim Bakanlığı (MEB) tarafından verilen resmi ustalık belgesi.</P>
+        </div>
+            <div class="innersoftware_child">
+             <div class="icon">
+                <i class="fas fa-laptop"></i>
+            </div>
+            <h3>İLK YARDIM BELGESİ</h3>
+            <P>Acil durumlarda müdahale edebilmek için önemlidir.</P>
+        </div>
+            <div class="innersoftware_child">
+             <div class="icon">
+                <i class="fas fa-laptop"></i>
+            </div>
+            <h3>(MYK) BELGESİ</h3>
+            <P>Türkiye’de inşaat sektöründe zorunlu hale gelen ve meslek brstandartlarına uygunluğu kanıtlayan belge</P>
+         </div>
+    </section>
+      
+<!-- BAŞARILAR -->
+<section id="başarılar">
+    <div class="section_tittle">
+        <h2>BAŞARILAR</h2>
+    </div>
+<div class="inner_courses">
+    <div class="child_courses">
+        <div class="course_img">
+            <img src="img/boya1.jpeg" alt="">
+        </div>
+    <div class="detail">
+        <p>uzman</p>
+        <h3>Boya & Badana</h3>
+    </div>
+    </div>
+    <div class="child_courses">
+        <div class="course_img">
+            <img src="img/vrik.jpg" alt="">
+        </div>
+    <div class="detail">
+        <p>uzman</p>
+        <h3>İnşaat</h3>
+    </div>
+    </div>
+    <div class="child_courses">
+        <div class="course_img">
+            <img src="img/seramik3.jpg" alt="">
+        </div>
+    <div class="detail">
+        <p>uzman</p>
+        <h3>Seramik & Fayans Döşeme</h3>
+    </div>
+    </div>
+    <div class="child_courses">
+        <div class="course_img">
+            <img src="img/sıva.webp" alt="">
+        </div>
+    <div class="detail">
+        <p>uzman</p>
+        <h3>Sıva & Alçı</h3>
+    </div>
+    </div>
+</div>
+</section>
 
-    
+<!-- HAKKIMDA -->
+<section id="hakkımda">
+    <div class="section_tittle">
+        <h2>Çalıştığım Firmalar Ne Söylediler?</h2>
+    </div>
+   <div class="inner_testi">
+    <div class="child_testi">
+        <div class="testi_img">
+           <img src="img/adam1.jpg" alt="">
+        </div>
+        <p>"Zafer bey her zamanki gibi özenli ve kısa sürede teslimatı yaptı."</p>
+        <a class="test_hightlight" href="a">Kuzey İnan</a>
+        <p>Firma CEO</p>
+    </div>
+    <div class="child_testi">
+        <div class="testi_img">
+           <img src="img/adam2.jpg" alt="">
+        </div>
+        <p>"Çok zor bir işi basit bir şekilde halletti, ihtiyacınızı siz söylemeden anlayabiliyor kesinlikle şans verin."</p>
+        <a class="test_hightlight" href="a">Fatih Çetin</a>
+        <p>Firma CEO</p>
+    </div>
+    <div class="child_testi">
+        <div class="testi_img">
+           <img src="img/kadn1.jpg" alt="">
+        </div>
+        <p>"Tekrar bir sorun yaşayacak olursam geleceğim yeri biliyorum. gönül rahatlığıyla tercih edebilirsiniz."</p>
+        <a class="test_hightlight" href="a">Sema Yılmaz</a>
+        <p>Firma Müdürü</p>
+    </div>
+    <div class="child_testi">
+        <div class="testi_img">
+           <img src="img/kadn2.jpg" alt="">
+        </div>
+        <p>"Her şeyi en ince ayrıntısına kadar anlatıp her konuda yardımcı oldu teşekkür ederim."</p>
+        <a class="test_hightlight" href="a">Aynur hifa</a>
+        <p>Firma Müdürü</p>
+    </div>
+</div>
+</section>
+<!-- HAKKIMDA END -->
+<!-- İLETİŞİM START-->
+
+<section id="iletişim">
+    <div class="section_tittle">
+        <h2>İletişime Geç</h2>
+    </div>
+    <div class="inner_contact">
+        <div class="child_contact">
+              <img src="./img/contact-bg-.png.webp" alt="">
+        </div>
+        <div class="child_contact">
+            <form action="#">
+                <input placeholder="isim" type="text" name="fullname" id="">
+                <input placeholder="E-mail" type="text" name="fullname" id="">
+                <input placeholder="Tel" type="text" name="fullname" id="">
+                <textarea placeholder="Mesaj" name="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Gönder">
+
+            </form>
+        </div>
+     </div>
+</section>
+<!-- İLETİSİM END -->
+<footer>
+    <div class="child_footer">
+        <h3>HAKKIMDA</h3>
+        <P>Ankara Mimar Sinan Mesleki ve Teknik Anadolu Lisesi Mezunuyum.</P>
+        <ul class="footer_social">
+        <li><a href="#"> <i class="fab fa-instagram"></i></a></li>
+    </ul>
+    </div>
+   <div class="child_footer">
+    <h3>Linkler</h3>
+    <ul class="quick_links">
+        <li><a href="anasayfa"></a></li>
+        <li><a href="sertifikalar"></a></li>
+        <li><a href="başarılar"></a></li>
+        <li><a href="hakkımda"></a></li>
+        <li><a href="iletişim"></a></li>
+    </ul>
+   </div>
+<div class="child_footer">
+    <h3>iletişim</h3>
+    <ul class="footer_contact">
+        <li><i class="fas fa-map-marked-alt"></i> Zonguldak-Ereğli</li>
+        <li><i class="fas fa-phone">05325466996</i></li>
+        <li><i class="fas-fa-envolpone"></i></li>
+    </ul>
+</div>
+<div class="child_footer">
+    <h3>HABERLERE HIZLI uLAŞ</h3>
+    <form action="#">
+        <input type="email" name="email" id="email">
+        <input type="submit" value="Gönder">
+    </form>
+</div>
+
+<!-- js file -->
+<script src="./js/main.js"></script>
+
+
+
+</footer>
 </body>
 </html>
